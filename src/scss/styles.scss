@@ -1,0 +1,1148 @@
+// Import all of Bootstrap's CSS
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,700");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+// Include any default variable overrides here (though functions won't be available)
+$enable-responsive-font-sizes: true;
+
+$font-family-sans-serif: "Roboto", sans-serif;
+
+$theme-colors: ("blue": #007bff,
+    "indigo":  #6610f2,
+    "purple": #6f42c1,
+    "pink": #e83e8c,
+    "red": #dc3545,
+    "orange": #fd7e14,
+    "yellow": #ffc107,
+    "green": #28a745,
+    "teal": #20c997,
+    "cyan": #17a2b8,
+    "white": #ffffff,
+    "gray": #6c757d,
+    "gray-dark": #343a40,
+    "primary": #007bff,
+    "secondary": #6c757d,
+    "success": #28a745,
+    "info": #17a2b8,
+    "warning": #ffc107,
+    "danger": #c4616b,
+    "light": #f8f9fa,
+    "dark": #343a40,
+    "custom-color": #f7f7f7,
+    "facebook":#4267B2,
+    "twitter":#1DA1F2,
+    "instagram":#405DE6,
+    "linkedin":#0e76a8,
+    "youtube":#c4302b
+);
+
+
+
+
+@import "~bootstrap/scss/bootstrap";
+
+
+.decoration{
+  background-image: url(../../decorative.jpg);
+  background-position: center;
+  //background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    //justify-content: space-around;
+    margin: auto;
+}
+
+  .links{
+    justify-content: center;
+    display: flex;
+  }
+  .links .navbar-nav .nav-item .nav-link{
+    color: black;
+
+  }
+  .links .navbar-nav .nav-item .nav-link:hover{
+    color: red;
+
+  }
+  .links2 .nav .nav-link{
+    color: black;
+
+  }
+  .links2 .nav .nav-link:hover{
+    color: red;
+
+  }
+  .links .navbar-nav .nav-item .nav-link{
+    display: inline-block;
+    position: relative;
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 0;
+      bottom: 0;
+      height: 2px;
+      margin: -3px 0;
+      left: 0;
+      background-color: red;
+      transition: all 0.4s ease-in 0s;
+    }
+    &:hover:after {
+      width: 100%;
+    }
+  }
+  .discover a{
+    display: inline-block;
+    position: relative;
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 0;
+      bottom: 0;
+      height: 3px;
+      margin: -3px 0;
+      left: 0;
+      background-color: black;
+      transition: all 0.4s ease-in 0s;
+    }
+    &:hover:after {
+      width: 100%;
+    }
+  }
+  .links2 .nav .nav-link{
+    display: inline-block;
+    position: relative;
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 0;
+      bottom: 0;
+      height: 2px;
+      margin: -3px 0;
+      left: 0;
+      background-color: red;
+      transition: all 0.4s ease-in 0s;
+    }
+    &:hover:after {
+      width: 100%;
+    }
+  }
+  .clock h4{
+    margin: 0 12px ;
+  }
+  .new{
+    position: relative;
+    background-color: rgb(251, 251, 251);
+    top: 30px;
+    height: 40px;
+    width: 130px;
+    padding: 7px;
+  }
+  .sale{
+    position: relative;
+    top: 30px;
+    background-color: black;
+    color: rgb(249, 247, 247);
+    
+    height: 40px;
+    width: 130px;
+    padding: 7px;
+
+  }
+  .himages .newimg1:hover .panel2{
+    color: white;
+     opacity: 1;
+   }
+   .himages .newimg2:hover .panel2{
+     color: white;
+      opacity: 1;
+    }
+    .himages .newimg3:hover .panel2{
+     color: white;
+      opacity: 1;
+    }
+    .himages .newimg4:hover .panel2{
+     color: white;
+      opacity: 1;
+    }
+    .himages .newimg5:hover .panel2{
+     color: white;
+      opacity: 1;
+    }
+    .himages .newimg6:hover .panel2{
+     color: white;
+      opacity: 1;
+    }
+ 
+ 
+
+
+    //media breakpoints per responsive
+  @include media-breakpoint-up(xs) {
+   
+
+    .wimg1{
+      background-image: url(../../Wimg1.jpg);
+    height:300px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    }
+  
+    .manimg1{
+      background-image: url(../../Manimg1.jpg);
+    height: 300px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    }
+     
+    .kidimg1{
+      background-image: url(../../kidimg1.jpg);
+    height: 300px;
+    width:100%;
+    //background-position: center;
+    background-size: cover;
+    }
+
+    .buton1{
+      position: relative;
+      top: 120px;
+     
+    }
+   
+    .text1{
+      position: relative;
+      top: 100px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+     
+  
+    }
+     
+    .wimg2{
+      background-image: url(../../Wimg2.jpg);
+    height:300px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    }
+  
+    
+  
+    .manimg2{
+    
+      background-image: url(../../Manimg2.jpg);
+    height: 300px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    }
+  
+    .wimg3{
+      
+      background-image: url(../../Wimg3.jpg);
+    height:300px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    }
+    .manimg3{
+     
+      background-image: url(../../Manimg3.jpg);
+    height: 300px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    }
+
+    .foto1{
+      background-image: url(../../foto1.jpg);
+      height: 200px;
+      width:100%;
+      background-position: center;
+      background-size: cover;
+    }
+    .foto2{
+      background-image: url(../../foto2.jpg);
+      height: 200px;
+      width:100%;
+      background-position: center;
+      background-size: cover;
+    }
+    .foto3{
+      background-image: url(../../foto3.jpg);
+      height: 200px;
+      width:100%;
+      background-position: center;
+      background-size: cover;
+    }
+    .foto4{
+      background-image: url(../../foto4.jpg);
+      height: 200px;
+      width:100%;
+      background-position: center;
+      background-size: cover;
+    }
+    .panel{
+      position: relative;
+      top: 100px;
+      width: 100%;
+      opacity: 0;
+    }
+    .foto1:hover .panel{
+      opacity: 1;
+    }
+    .foto2:hover .panel{
+      opacity: 1;
+    }
+    .foto3:hover .panel{
+      opacity: 1;
+    }
+    .foto4:hover .panel{
+      opacity: 1;
+    }
+ 
+    
+    .panel .bgwhite{
+      background-color: white;
+      margin: 0 3px;
+      border: none;
+      
+    }
+    
+    .panel .bgwhite:hover{
+      background-color:rgba(255, 0, 0, 0.626);
+      border: none;
+      color: white;
+    }
+  
+
+    section{
+      position: relative;  
+      height: 250px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+    
+    .swiper{
+      width: 950px;
+    }
+    
+    .section .card{
+      position: relative;
+      background: #fff;
+      margin: 20px 0;
+    
+    }
+    
+    
+    
+    
+    .rate img{
+      height: 100%;
+      width: 100px;
+    }
+    
+    
+    
+    
+    .card .rating i{
+      font-size: 12px;
+      margin: 0 1px;
+      color: #fcd64c;
+    }
+    
+    .section .card .button{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    
+    .section .card .button button{
+      background: #e89c2a;
+      outline: none;
+      border: none;
+      color: #fff;
+      padding: 8px 22px;
+      border-radius: 20px;
+      font-size: 14px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    
+    .newimg1{
+      background-image: url(../../newimg1.jpg);
+      height: 120px;
+      width: auto;
+      background-position: center;
+      background-size: cover;
+    }
+    
+    .newimg2{
+      background-image: url(../../newimg2.jpg);
+      height: 120px;
+      width:auto;
+      background-position: center;
+      background-size: cover;
+    }
+    .newimg3{
+      background-image: url(../../newimg3.jpg);
+      height: 120px;
+      width:auto;
+      background-position: center;
+      background-size: cover;
+    }
+    .newimg4{
+      background-image: url(../../newimg4.jpg);
+      height: 120px;
+      width:auto;
+      background-position: center;
+      background-size: cover;
+    }
+    .newimg5{
+      background-image: url(../../newimg5.jpg);
+      height: 120px;
+      width:auto;
+      background-position: center;
+      background-size: cover;
+    }
+    .newimg6{
+    
+      background-image: url(../../newimg6.jpg);
+      height: 120px;
+      width:auto;
+      background-position: center;
+      background-size: cover;
+    }
+  
+    .panel2{
+      position: relative;
+      top: 40px;
+      width: 100%;
+      opacity: 0;
+    }
+
+    #footer-email{
+      width: 270px;
+      height: 50px;
+      border-radius: 0%;
+      padding: 20px;
+    }
+    .btn-secondary{
+      background-color: rgba(128, 128, 128, 0.918);
+      width: 90px;
+      height: 50px;
+      border-radius: 0%;
+      padding: 20px;
+    }
+    .footer2{
+      background-image: url(../../darkbackgroung.jpg);
+       width: 100%;
+       
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+    }
+    .footerlink .nav-link{
+      font-size: 12px;
+    }
+    .footer3{
+      
+      background-color: black;
+      //background-image: url(../../footer3.jpg);
+       width: 100%;
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+    }
+  
+    }
+
+
+
+    @include media-breakpoint-up(sm) {
+      .wimg1{
+        background-image: url(../../Wimg1.jpg);
+      height:300px;
+      width:100%;
+      background-position: center;
+      background-size: cover;
+      }
+      
+      .manimg1{
+        background-image: url(../../Manimg1.jpg);
+      height: 300px;
+      width:auto;
+      background-position: center;
+      background-size: cover;
+      }
+       
+      .kidimg1{
+        background-image: url(../../kidimg1.jpg);
+      height: 300px;
+      width:auto;
+      background-position: center;
+      background-size: cover;
+      }
+
+
+    }
+  
+
+
+    @include media-breakpoint-up(md) {
+      .wimg1{
+        background-image: url(../../Wimg1.jpg);
+      height:400px;
+      width:100%;
+      background-position: center;
+      background-size: cover;
+      }
+      
+      .manimg1{
+        background-image: url(../../Manimg1.jpg);
+      height: 400px;
+      width:auto;
+      background-position: center;
+      background-size: cover;
+      }
+       
+      .kidimg1{
+        background-image: url(../../kidimg1.jpg);
+      height: 400px;
+      width:auto;
+      background-position: center;
+      background-size: cover;
+      }
+      .wimg2{
+        background-image: url(../../Wimg2.jpg);
+      height:350px;
+      width:100%;
+      background-position: center;
+      background-size: cover;
+      }
+    
+      
+    
+      .manimg2{
+        background-image: url(../../Manimg2.jpg);
+      height: 350px;
+      width:100%;
+      background-position: center;
+      background-size: cover;
+      top: 5px;
+      }
+    
+      .wimg3{
+        background-image: url(../../Wimg3.jpg);
+      height:350px;
+      width:100%;
+      background-position: center;
+      background-size: cover;
+      }
+      .manimg3{
+        background-image: url(../../Manimg3.jpg);
+      height: 350px;
+      width:100%;
+      background-position: center;
+      background-size: cover;
+      }
+     
+
+      .foto1{
+        background-image: url(../../foto1.jpg);
+        height: 300px;
+        width:100%;
+        background-position: center;
+        background-size: cover;
+      }
+      .foto2{
+        background-image: url(../../foto2.jpg);
+        height: 300px;
+        width:100%;
+        background-position: center;
+        background-size: cover;
+      }
+      .foto3{
+        background-image: url(../../foto3.jpg);
+        height: 300px;
+        width:100%;
+        background-position: center;
+        background-size: cover;
+      }
+      .foto4{
+        background-image: url(../../foto4.jpg);
+        height: 300px;
+        width:100%;
+        background-position: center;
+        background-size: cover;
+      }
+      .foto5{
+        background-image: url(../../foto5.jpg);
+        height: 300px;
+        width:100%;
+        background-position: center;
+        background-size: cover;
+      }
+      .foto6{
+        background-image: url(../../foto6.jpg);
+        height: 300px;
+        width:100%;
+        background-position: center;
+        background-size: cover;
+      }
+      .foto7{
+        background-image: url(../../foto7.jpg);
+        height: 300px;
+        width:100%;
+        background-position: center;
+        background-size: cover;
+      }
+      .foto8{
+        background-image: url(../../foto8.jpg);
+        height: 300px;
+        width:100%;
+        background-position: center;
+        background-size: cover;
+      }
+    
+      section{
+        position: relative;  
+        height: 450px;
+        width: 1075px;
+        display: flex;
+        align-items: center;
+      }
+      
+      .swiper{
+        width: 950px;
+      }
+      
+      .section .card{
+        position: relative;
+        background: #fff;
+        margin: 20px 0;
+      
+      }
+      
+      
+      
+      
+      .rate img{
+        height: 100%;
+        width: 90px;
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      .card .rating i{
+        font-size: 10px;
+        margin: 0 2px;
+        color: #e88c2a;
+      }
+      
+      .section .card .button{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+      }
+      
+      .section .card .button button{
+        background: #e89c2a;
+        outline: none;
+        border: none;
+        color: #fff;
+        padding: 8px 22px;
+        border-radius: 20px;
+        font-size: 14px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+      .newimg1{
+        background-image: url(../../newimg1.jpg);
+        height: 200px;
+        width: auto;
+        background-position: center;
+        background-size: cover;
+      }
+      
+      .newimg2{
+        background-image: url(../../newimg2.jpg);
+        height: 200px;
+        width:auto;
+        background-position: center;
+        background-size: cover;
+      }
+      .newimg3{
+        background-image: url(../../newimg3.jpg);
+        height: 200px;
+        width:auto;
+        background-position: center;
+        background-size: cover;
+      }
+      .newimg4{
+        background-image: url(../../newimg4.jpg);
+        height: 200px;
+        width:auto;
+        background-position: center;
+        background-size: cover;
+      }
+      .newimg5{
+        background-image: url(../../newimg5.jpg);
+        height: 200px;
+        width:auto;
+        background-position: center;
+        background-size: cover;
+      }
+      .newimg6{
+      
+        background-image: url(../../newimg6.jpg);
+        height: 200px;
+        width:auto;
+        background-position: center;
+        background-size: cover;
+      }
+    
+      
+
+
+      #footer-email{
+        width: 480px;
+        height: 70px;
+        border-radius: 0%;
+        padding: 20px;
+      }
+      .btn-secondary{
+       
+        width: 200px;
+        height: 70px;
+        border-radius: 0%;
+        padding: 20px;
+      }
+    
+      .footer3{
+        background-color: black;
+        //background-image: url(../../footer3.jpg);
+         width: 100%;
+         background-repeat: no-repeat;
+         background-position: center;
+         background-size: cover;
+      }
+    
+    }
+     
+  
+  
+  @include media-breakpoint-up(lg) {
+    .text1{
+      position: relative;
+      top: 230px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+
+    .wimg1{
+      background-image: url(../../Wimg1.jpg);
+    height:550px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+    }
+  
+    .manimg1{
+      background-image: url(../../Manimg1.jpg);
+    height: 550px;
+    width:auto;
+    //background-position: center;
+    background-size: cover;
+    }
+     
+    .kidimg1{
+      background-image: url(../../kidimg1.jpg);
+    height: 550px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+    }
+
+    .buton1{
+      position: relative;
+      top: 350px;
+    
+    }
+  
+  .wimg2{
+    background-image: url(../../Wimg2.jpg);
+  height:450px;
+  width:100%;
+  background-position: center;
+  background-size: cover;
+  }
+
+  
+
+  .manimg2{
+    background-image: url(../../Manimg2.jpg);
+  height: 450px;
+  width:100%;
+  background-position: center;
+  background-size: cover;
+  }
+
+  .wimg3{
+    background-image: url(../../Wimg3.jpg);
+  height:450px;
+  width:100%;
+  background-position: center;
+  background-size: cover;
+  }
+  .manimg3{
+    background-image: url(../../Manimg3.jpg);
+  height: 450px;
+  width:100%;
+  background-position: center;
+  background-size: cover;
+  }
+ 
+
+  .foto1{
+    background-image: url(../../foto1.jpg);
+    height: 360px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .foto2{
+    background-image: url(../../foto2.jpg);
+    height: 360px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .foto3{
+    background-image: url(../../foto3.jpg);
+    height: 360px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .foto4{
+    background-image: url(../../foto4.jpg);
+    height: 360px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .foto5{
+    background-image: url(../../foto5.jpg);
+    height: 360px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .foto6{
+    background-image: url(../../foto6.jpg);
+    height: 360px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .foto7{
+    background-image: url(../../foto7.jpg);
+    height: 360px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .foto8{
+    background-image: url(../../foto8.jpg);
+    height: 360px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+  }
+ 
+  
+
+
+
+  .panel{
+    position: relative;
+    top: 250px;
+    width: 100%;
+    opacity: 0;
+  }
+  .foto1:hover .panel{
+    opacity: 1;
+  }
+  .foto2:hover .panel{
+    opacity: 1;
+  }
+  .foto3:hover .panel{
+    opacity: 1;
+  }
+  .foto4:hover .panel{
+    opacity: 1;
+  }
+  .foto5:hover .panel{
+    opacity: 1;
+  }
+  .foto6:hover .panel{
+    opacity: 1;
+  }
+  .foto7:hover .panel{
+    opacity: 1;
+  }
+  .foto8:hover .panel{
+    opacity: 1;
+  }
+  
+  .panel .bgwhite{
+    background-color: white;
+    margin: 0 7px;
+    border: none;
+    
+  }
+  
+  .panel .bgwhite:hover{
+    background-color:rgba(255, 0, 0, 0.626);
+    border: none;
+    color: white;
+  }
+ 
+ 
+
+
+  section{
+    position: relative;  
+    height: 450px;
+    width: 1075px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .swiper{
+    width: 950px;
+  }
+  
+  .section .card{
+    position: relative;
+    background: #fff;
+    margin: 20px 0;
+  
+  }
+  
+  
+  
+  
+  .rate img{
+    height: 100%;
+    width: 90px;
+  }
+  
+
+  
+  .card .rating i{
+    font-size: 14px;
+    margin: 0 1px;
+    color: #fcd64c;
+  }
+  
+  .section .card .button{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .section .card .button button{
+    background: #e89c2a;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .newimg1{
+    background-image: url(../../newimg1.jpg);
+    height: 200px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+
+  }
+  
+  .newimg2{
+    background-image: url(../../newimg2.jpg);
+    height: 200px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .newimg3{
+    background-image: url(../../newimg3.jpg);
+    height: 200px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .newimg4{
+    background-image: url(../../newimg4.jpg);
+    height: 200px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .newimg5{
+    background-image: url(../../newimg5.jpg);
+    height: 200px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .newimg6{
+  
+    background-image: url(../../newimg6.jpg);
+    height: 200px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .himages:hover{
+    //opacity: 0.7;
+    opacity: 0.8;
+  }
+  .panel2{
+    position: relative;
+    top: 70px;
+    width: 100%;
+    opacity: 0;
+  }
+
+  
+
+
+  #footer-email{
+    width: 480px;
+    height: 70px;
+    border-radius: 0%;
+    padding: 20px;
+  }
+  .btn-secondary{
+    background-color: rgba(128, 128, 128, 0.918);
+    width: 200px;
+    height: 70px;
+    border-radius: 0%;
+    padding: 20px;
+  }
+  .footer2{
+    background-image: url(../../darkbackgroung.jpg);
+     width: 100%;
+     height: 700px;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+  }
+  .footerlink .nav-link{
+    font-size: 15px;
+  }
+
+
+  .footer3{
+    background-color: black;
+    //background-image: url(../../footer3.jpg);
+     width: 100%;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+  }
+
+  }
+ 
+  
+
+
+
+.bglight{
+  background-image: url(../../bglight.jpg);
+     width: 100%;
+     height: 710px;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+
+}
+
+    .collection h5{
+      font-family:  Georgia, 'Times New Roman', Times, serif;
+     
+
+    }
+  
+
+  
+  .buton1 .btn-light{
+    border-radius: 0%;
+    background-color: white;
+    padding: 10px;
+    justify-content: space-between;
+  }
+ 
+  .text2 .btn-dark{
+    border-radius: 0%;
+    background-color: black;
+    padding: 10px;
+    justify-content: space-between;
+  }
+ 
+
+
+  .graybg{
+    background-image: url(../../graybg.jpg);
+    height: 650px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .text2{
+    position: relative;
+    top: 90px;
+    width: 100%;
+  }
+
+
+  .nav-item a{
+  
+    font-size: 17px;
+  }
+
+
+   
+
+
+
+
+

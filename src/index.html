@@ -1,0 +1,1076 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap w/ Parcel</title>
+    <link rel="stylesheet" href="scss/styles.scss">
+    <script type="module" src="js/main.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  </head>
+  <body>
+    <!--navbar1-->
+    <nav class="navbar navbar-light bg-light ms-auto d-lg-flex   d-md-flex d-none">
+        <div class="container">
+          <div class="col-lg-2 d-flex flex-row" style="font-size: 10px;">
+            <a class="nav-link btn  rounded-pill px-1 text-dark shadow-none " ><i class="bi bi-truck"></i></a>
+        <span class="navbar-brand mb-0 fs-6 fw-bold mt-1" >Free shipping over $100</span>
+          </div>
+          <div class="col-lg-3 offset-lg-1 d-flex flex-row nav1" style="justify-content:space-between ;">
+          
+            <a class="nav-link   rounded-pill px-1 text-dark shadow-none " ><img src="../unitedstate.png" style="height:20px ;"></a>
+            <p class="fs-6 fw-bold mt-2" >United States</p>
+            <a class="nav-link  btn rounded-pill px-1 text-dark shadow-none " ><i class="bi bi-chevron-down"></i> </a>
+            
+            <p class="fs-6 fw-bold mt-2"> | USD</p>
+            <a class="nav-link  btn rounded-pill px-1 text-dark shadow-none " ><i class="bi bi-chevron-down"></i> </a>
+            <p class="fs-6 fw-bold mt-2"> | English </p>
+            
+            <a class="nav-link  btn rounded-pill px-1 text-dark shadow-none " ><i class="bi bi-chevron-down"></i> </a>
+           
+          </div>
+              
+          <div class="shipping1 col-lg-5 offset-lg-1 d-flex flex-row " style="justify-content:space-around ;">
+            <p class="fw-bold mt-1">Shipping</p>
+            <p class="fw-bold mt-1">FAQ</p>
+            <p class="fw-bold mt-1">Contact</p>
+            <div class="icons d-flex justify-content-end">
+              <a class="btn rounded-circle px-1 " href="#"><i class="fa-brands fa-facebook  text-gray"></i>  </a> 
+              <a class="btn rounded-circle px-1 " href="#"><i class="fa-brands fa-twitter  text-gray"></i>  </a>
+              <a class="btn  rounded-circle px-1 " href="#"><i class="fa-brands fa-instagram  text-gray"></i>  </a>
+              <a class="btn rounded-circle px-1" href="#"><i class="fa-brands fa-youtube  text-gray"></i>  </a>
+        
+            </div>
+          </div>
+        
+        </div>
+    </nav>
+
+
+
+
+
+
+    <!--navbar 2-->
+    <nav class="navbar navbar-expand-lg navbar-light d-lg-flex d-md-flex ">
+
+        <div class="container p-2">
+          <!--Logo -->
+          <a class="navbar-brand  col-lg-2 col-md-2 col-2 " href="#"><span class=" fw-bold fs-3">Shopper.</span></a>
+         
+          <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"  aria-expanded="false " aria-controls="navbarNavDropdown" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          
+          <div class="collapse"   id="navbarNavDropdown" >
+            <ul class="navbar-nav ">
+              <li class="nav-item ">
+                <a class="nav-link  fw-bold" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-bold px-1" href="#">Catalog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-bold px-1" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-bold px-1"href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-bold px-1" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-bold px-1" href="#">Elements</a>
+              </li>
+            </ul>
+          </div>
+          
+
+
+          <div class=" links col-lg-8 d-lg-flex d-md-flex d-none" style="justify-content: center;" >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link fw-bold" aria-current="page" href="#" >Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  fw-bold" href="#">Catalog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  fw-bold" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  fw-bold"href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  fw-bold" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  fw-bold" href="#">Elements</a>
+              </li>
+            </ul>
+          </div>
+         
+          
+          <div class="ms-lg-auto col-lg-2  ">
+            <ul class="navbar-nav  d-md-flex flex-md-row d-none justify justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link btn  rounded-pill px-3 text-dark shadow-none cool-link2" href="#"><i class="bi bi-search"></i> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn  rounded-pill px-3 text-dark shadow-none cool-link2" href="#"><i class="bi bi-person"></i></a>
+              </li>
+              <li>
+                <a class="nav-link btn  rounded-pill px-3 text-dark shadow-none cool-link2" href="#"> <i class="bi bi-heart"></i>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link btn  rounded-pill px-3 text-dark shadow-none cool-link2" href="#"><i class="bi bi-bag"></i></a>
+              </li>
+               
+              </ul>
+             </div> 
+         </div>
+      </nav>
+     
+
+
+
+
+
+
+      <nav class="decoration navbar navbar-dark  mt-1" style="height:55px;justify-content: center;">
+        
+        <div class="text-white d-flex flex-row mt-2  " >
+          <p class="fw-b text-light " style="font-family: Georgia, 'Times New Roman', Times, serif;">GET 20% SALE WITH CUPONE CODE CGBNJK125</p></div>
+      </nav>
+
+ 
+
+       <!--Container fluid (3foto)-->
+
+       <div class="container-fluid">
+        <div class="row mt-1 ">
+         <!--foto1 -->
+        <div class="col-lg-4 px-0">
+          <div class=" wimg1 "  >
+           <div class="d-flex flex-column">
+            <div class="text-white text-center  text1">
+             <h5 class="fs-1">WOMENS</h5>
+            </div>
+            <div class="mt-5 buton1 text-center">
+              <button type="button" class="btn btn-light text-dark "  >
+                
+                <a class="nav-link    px-4 text-dark shadow-none " >Shop Mens<i class="bi bi-arrow-right px-2"></i> </a> </button>
+               
+            </div>
+        </div>
+        </div>
+        </div>
+
+
+       <!--foto2-->
+        <div class="col-lg-4 px-0  ">
+          <div class=" manimg1 mt-lg-0 mt-2 "  >
+            <div class="d-flex flex-column">
+              <div class="text-white text-center  text1">
+               <h5 class="fs-1">Mens</h5>
+              </div>
+              <div class="mt-5 buton1 text-center ">
+                <button type="button" class="btn btn-light text-dark "  >
+                  
+                  <a class="nav-link    px-4 text-dark shadow-none " >Shop Mens<i class="bi bi-arrow-right px-2"></i> </a> </button>
+              </div>
+          </div>
+        </div>
+        </div>
+
+       <!--foto3-->
+        <div class="col-lg-4 px-0 ">
+          <div class=" kidimg1 mt-lg-0 mt-2 "  >
+            <div class="d-flex flex-column">
+              <div class="text-white text-center text1  ">
+                <h5 class="fs-1">Kids</h5>
+              </div>
+              <div class="mt-5 buton1 text-center">
+                <button type="button" class="btn btn-light text-dark "  >
+                  <a class="nav-link    px-4 text-dark shadow-none " >Shop Kids<i class="bi bi-arrow-right px-2"></i> </a> </button>
+              </div>
+            </div>
+        </div>
+
+
+
+       </div>
+       </div>
+       </div>
+
+        
+
+       <!--container 2 -->
+      <div class="container ">
+        <div class="row mt-4">
+
+          <div class="col-lg-3 col-md-6 col-12 mt-3 ">
+           <div class=" ms-auto d-flex flex-row ">
+             <a class=" btn  px-3 text-danger fs-4"
+       href="#"> <i class="bi bi-truck"></i> </a><!--ikona1 per free delivery-->
+         
+            <div class="d-flex flex-column mt-2" style="font-size: 15px;" >
+            <p class="fw-bold  text-start " >  FAST AND FREE DELIVERY</p>
+            <p class="text-gray text-start ">From all orders over $100</p>
+            </div>
+           </div>
+           </div>
+          
+         
+          <div class="col-lg-3 col-md-6 col-12 mt-3">
+            <div class="  d-flex flex-row ">
+              <a class=" btn  px-3 text-danger fs-4 "
+        href="#"><i class="fa-solid fa-right-left"></i></a><!--ikona2 per free returns-->
+          
+             <div class="d-flex flex-column mt-2" style="font-size: 15px;">
+             <p class="fw-bold  text-start" >  FREE RETURNS</p>
+             <p class="text-gray text-start ">Return money within 30 day</p>
+             </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-12  mt-3">
+            <div class=" ms-auto d-flex flex-row ">
+              <a class=" btn  px-3 text-danger fs-4"
+        href="#"><i class="bi bi-file-lock"></i></a><!--ikona secure-->
+             <div class="d-flex flex-column mt-2" style="font-size: 15px;">
+             <hp class="fw-bold  text-start" >  SECURE SHOPPING</p>
+             <p class="text-gray text-start ">Y're in safe hands</p>
+             </div>
+            </div>
+         </div>
+
+         <div class="col-lg-3 col-md-6 col-12 mt-3">
+          <div class=" ms-auto d-flex flex-row ">
+            <a class=" btn  px-3 text-danger fs-4"
+      href="#"><i class="bi bi-tag"></i></a><!--ikona3 tag-->
+        
+           <div class="d-flex flex-column mt-2" style="font-size: 15 px;">
+           <p class="fw-bold text-start" > Over 1000 styles</p>
+           <p class="text-gray text-start ">We have everything you need</p>
+           </div>
+          </div>
+        </div>
+
+
+
+        </div>
+        <hr>
+      </div>
+  
+
+    
+
+
+
+      <!--container3-->
+      <div class="container mt-5 p-3 ">
+    <div class="mt-5 p-4 d-flex flex-column text-center collection">
+      <h5 class="text-gray fw-bold fs-6  ">NEW COLLECTION</h5>
+      <h2 class="fw-bold">BEST PICS 2019</h2>
+      <h5 class="text-gray fw-bold">Appear, dry there darkness they're seas ,dry water thing fly midst.</h5>
+      <h5 class="text-gray fw-bold text-center mt-0">Beast , above fly brought very green</h5>
+    </div>
+      </div>
+
+
+
+      <!--container 4-->
+     <div class="container">
+         <div class="row p-lg-2">
+         <div class="col-lg-4  ">
+          <div class="wimg2">
+
+            <div class="d-flex flex-column  text-center text-white  p-4 ">
+              <div class="mt-5 p-lg-5 p-md-5">
+           <h4 class="fw-bold mt-5">Bag's Collection</h4>
+           <div class="  justify-content-center"  >
+            <a class="nav-link text-white fw-bold mt-4">Shop Now <i class="bi bi-arrow-right px-2"></i> </a>
+           
+           </div>
+              </div>
+            </div>
+
+          </div>
+         </div>
+          
+
+         <div class="col-lg-8 ">
+          <div class="manimg2 mt-lg-0 mt-md-2 mt-sm-2 mt-2 ">
+              <div class="d-flex flex-row" style="justify-content: space-between;">
+
+
+            <div class="d-flex flex-column  text-lg-start text-md-start text-center text-dark  p-4">
+              <div class="mt-5 p-lg-5 p-md-5 ">
+           <h4 class="fw-bold mt-5">Printed man's shirt</h4>
+           <div class="justify-content-center">
+            <a class=" nav-link text-dark fw-bold mt-4" href="#">Shop Now <i class="bi bi-arrow-right px-2"></i> </a>
+           </div>
+              </div>
+            </div>
+            <div class="mt-lg-5 p-2 "><img src="../sale.png "style="height:150px ;"></div>
+              
+              </div>
+
+          </div>
+         </div>
+
+         </div>
+         
+        
+
+         <div class="row mt-2">
+          <div class="col-lg-8">
+            <div class="wimg3">
+              <div class="d-flex flex-column  text-lg-start text-center text-dark  p-2">
+                <div class="mt-5 p-lg-5 p-md-5 col-lg-5">
+             <h3 class="fw-bold mt-5 ">Basic woman's dresses</h3>
+             <div class=" justify-content-center"  >
+              <a class="nav-link text-dark fw-bold mt-4">Shop Now <i class="bi bi-arrow-right px-2"></i> </a>
+             </div>
+                </div>
+              </div>
+            </div>
+           </div>
+
+           <div class="col-lg-4 ">
+            <div class="manimg3 mt-lg-0 mt-md-2 mt-sm-2 mt-2 ">
+
+             <div class="d-flex flex-column  text-center text-white  p-2">
+              <div class="mt-5 p-lg-5 p-md-5 mt-3">
+           <h4 class="fw-bold mt-5">Sweatshirts</h4>
+           <div class="  justify-content-center"  >
+            <a class="nav-link text-white fw-bold mt-4">Shop Now <i class="bi bi-arrow-right px-2"></i> </a>
+           </div>
+              </div>
+            </div>
+            </div>
+           </div>
+
+         </div>
+
+     </div>
+
+
+
+
+
+
+
+    
+
+     <div class="mt-5 p-5 d-flex flex-column text-center">
+    
+      <h1 class="fw-bold" style="font-family:Georgia, 'Times New Roman', Times, serif ;">Top  month  Sellers</h1>
+        
+      <div class="links2 mt-2 p-3 d-flex flex-row text-center "   style="justify-content: space-around;" >
+        <ul class="nav d-flex flex-row">
+         
+            <a class="nav-link   shadow-none fw-bold fs-5" href="#">Womens </a>
+          
+          
+            <a class="nav-link  shadow-none fw-bold fs-5" href="#">Mens</a>
+      
+          
+            <a class="nav-link   shadow-none fw-bold fs-5" href="#"> Kids
+            </a>
+        
+          </ul>
+      </div>
+    </div>
+      
+
+
+
+    <!--container5-->
+
+    <div class="container">
+        <div class="row mt-2">
+
+          
+         <div class="col-lg-3 col-md-3 col-sm-3 col-6 ">
+          <div class=" foto1 "  >
+            <span class="new fw-bold px-3 text-uppercase">New</span>
+            <div class="panel text-center" style="justify-content: space-between;" >
+              <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite"><i class="bi bi-eye px-1 "></i></a>   
+              <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite"><i class="bi bi-cart3 px-1"></i></a>
+              <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite"><i class="bi bi-heart px-1"></i></a>
+            
+            </div>
+          </div>
+         
+        <div class="mt-4 d-flex flex-column">
+        <p class="fw-bold text-gray">shoes</p>
+        <h5 class="fw-bold"> Leather mid-heal sandals</h5>
+        <h5 class="text-gray">$160.00</h5>
+        </div>
+         </div>
+
+
+
+         
+         <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+          <div class=" foto2"  >
+            <div class="panel text-center" style="justify-content: space-between;" >
+              <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite mt-3"><i class="bi bi-eye px-1 fw-bold"></i></a>   
+              <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite mt-3"><i class="bi bi-cart3 px-1 fw-bold"></i></a>
+              <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite mt-3"><i class="bi bi-heart px-1 fw-bold"></i></a>
+            
+            </div>
+          </div>
+        <div class="mt-4 d-flex flex-column">
+          <p class="text-gray fw-bold">Dresses</p>
+          <h5 class="fw-bold">White coton dress</h5>
+          <h5 class="text-gray">$40.00</h5>
+          </div>
+         </div>
+          
+
+         <div class=" col-lg-3 col-md-3 col-sm-3  col-6">
+          <div class="  foto3  "   >
+            <span class="sale fw-bold text-white px-3 text-uppercase">
+            Sale
+            </span>
+            <div class="panel text-center" style="justify-content: space-between;" >
+              <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite "><i class="bi bi-eye px-1"></i></a>   
+              <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite "><i class="bi bi-cart3 px-1"></i></a>
+              <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite "><i class="bi bi-heart px-1"></i></a>
+            
+            </div>
+          </div>
+        
+        <div class="mt-4 d-flex flex-column">
+          <p class="text-gray fw-bold">Shoes</p>
+          <h5 class="fw-bold">Leather sneakers</h5>
+         <h5 class="text-gray"><del>$115.00</del><span class="text-danger px-2"> $85.00</span></h5>
+          </div>
+      
+         </div>
+
+
+
+        
+         <div class="col-lg-3 col-md-3 col-sm-3  col-6">
+          <div class=" foto4 "  >
+            <div class="panel text-center" style="justify-content: space-around;" >
+              <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite mt-3"><i class="bi bi-eye px-1"></i></a>   
+              <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite mt-3"><i class="bi bi-cart3 px-1"></i></a>
+              <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite mt-3"><i class="bi bi-heart px-1"></i></a>
+            
+            </div>
+          </div>
+        
+          <div class="mt-4 d-flex flex-column">
+            <p class="text-gray fw-bold">Dresses</p>
+            <h5 class="fw-bold">Coton dress</h5>
+            <h5 class="text-gray">$99.00</h5>
+            </div>
+         </div>
+        </div>
+        
+       
+        <div class="row mt-5 ">
+     
+          <div class=" col-lg-3 col-md-3 col-sm-3 col-6  mt-2 d-lg-block d-md-block  d-none ">
+           <div class="  foto5  "   >
+             <div class="panel text-center" style="justify-content: space-around;" >
+              <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite mt-3"><i class="bi bi-eye px-1"></i></a>   
+              <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite mt-3"><i class="bi bi-cart3 px-1"></i></a>
+              <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite mt-3"><i class="bi bi-heart px-1"></i></a>
+            
+            </div>
+           </div>
+        
+           <div class="mt-4 d-flex flex-column">
+            <p class="text-gray fw-bold">Dresses</p>
+            <h5 class="fw-bold">Floral midi dress</h5>
+            <h5 class="text-gray">$59.00</h5>
+            </div>
+          </div>
+
+
+
+
+
+         <!--foto6-->
+          <div class=" col-lg-3 col-md-3 col-sm-3 col-6 mt-2 d-lg-block d-md-block d-none  ">
+           <div class=" foto6  "  > 
+             <span class="new fw-bold px-3 text-uppercase">New</span>
+             <div class="panel text-center" style="justify-content: space-around;" >
+              <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite "><i class="bi bi-eye px-1"></i></a>   
+              <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite "><i class="bi bi-cart3 px-1"></i></a>
+              <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite "><i class="bi bi-heart px-1"></i></a>
+            
+            </div>
+
+          </div>
+           <div class="mt-4 d-flex flex-column">
+            <p class="text-gray fw-bold">Bags</p>
+            <h5 class="fw-bold">Tom Ford Black Bag</h5>
+            <h5 class="text-gray"><del>$145.00</del><span class="text-danger px-2"> $99.00</span></h5>
+            </div>
+          </div>
+           
+
+
+
+         <!--foto7-->
+          <div class=" col-lg-3 col-md-3 col-sm-3 col-6 mt-2 d-lg-block d-md-block d-none ">
+           <div class=" foto7" >
+            <div class="panel text-center" style="justify-content: space-around;" >
+              <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite mt-3 "><i class="bi bi-eye px-1"></i></a>   
+              <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite mt-3 "><i class="bi bi-cart3 px-1"></i></a>
+              <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite mt-3 "><i class="bi bi-heart px-1"></i></a>
+            
+            </div>
+           </div>
+         <div class="mt-4 d-flex flex-column">
+           <p class="text-gray fw-bold">Dresses</p>
+           <h5 class="fw-bold">Balmain White Dress</h5>
+           <h5 class="text-gray">$239.00</h5>
+           </div>
+       
+          </div>
+
+
+
+           <!--foto8-->
+          <div class=" col-lg-3 col-md-3 col-sm-3 col-6 mt-2 d-lg-block d-md-block d-none">
+            <div class="foto8"  >  
+              <span class="sale fw-bold text-white px-3 text-uppercase">
+              Sale
+              </span>
+              <div class="panel text-center" style="justify-content: space-around;" >
+                <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite  "><i class="bi bi-eye px-1"></i></a>   
+                <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite  "><i class="bi bi-cart3 px-1"></i></a>
+                <a href="#" class="btn rounded-circle px-2 fs-4 bgwhite  "><i class="bi bi-heart px-1"></i></a>
+              
+              </div>
+            </div>
+         <div class="mt-4 d-flex flex-column">
+           <p class="text-gray fw-bold">shoes</p>
+           <h5 class="fw-bold">Heel stappy sandals</h5>
+           <h5 class="text-gray">$90.00</h5>
+           </div>
+           
+          </div>
+         </div>
+         
+       
+        
+    </div>
+
+
+       <!--linku dicover more-->
+      <div class="discover mt-5 p-3 text-center">
+    <a href="#" class="text-decoration-none text-dark fw-bold fs-5" >Discover more</a>
+      </div>
+
+
+      <!--container 6-->
+      <div class="container-fluid  mt-5 graybg " >
+        <div class="row  "><!--klasa "graybg " , foton e backgroundit  ne scss-->
+          <div class="col-lg-5 d-lg-block  d-none p-1 mt-3  mt-lg-5">
+            <img class="img-fluid mt-3  "
+                src="../heels.png" style="height:100%;" alt="t-shirt"  /> 
+          </div>
+           
+          <div class="text2 mt-5  d-block text-start justify-content-end col-lg-6  offset-lg-1 col-md-5 col-sm-8 col-12">
+          
+           <div class="d-flex flex-column">
+          <h2 style="font-family:Georgia, 'Times New Roman', Times, serif" class="fw-bold">Get -50% from</h2>
+          <h2 style="font-family:Georgia, 'Times New Roman', Times, serif" class="fw-bold mt-2">Summer Collection </h2>
+          <h1 id="demo" class="mt-lg-5  fw-bold   "  style="color:rgb(255, 71, 95) ; font-size: 50px;">00:00:00:00 </h1> 
+               <div class="clock mt-3 d-flex flex-row" >
+                <h4 class="text-gray fw-bold" >Days   </h4>
+                <h4 class="text-gray fw-bold">Hours   </h4>
+                <h4 class="text-gray fw-bold">Minutes  </h4>
+                <h4 class="text-gray fw-bold">Seconds   </h4>
+               </div>
+          </div>
+               
+               
+               <button type="button " class="btn btn-dark text-white mt-5"  >
+              
+                <a class="nav-link    px-4 text-white shadow-none " >Shop Now<i class="bi bi-arrow-right px-3"></i> </a> </button>
+              
+          </div>
+         
+  
+         
+        </div>
+       </div>
+  
+
+
+<div class="mt-5 p-5 text-center">
+<p class="text-gray mt-3 fw-bold">WHAT BAYERS SAY</p>
+<h2 class="fw-bold mt-3" style="font-family:Georgia, 'Times New Roman', Times, serif;">Latest buyers Reviews</h2>
+
+</div>
+
+
+
+<!--container 6 Swiper Cards-->
+<div class="container-fluid mt-3">
+  <div class="swiper mySwiper container section">
+    <div class="swiper-wrapper content">
+  <!--Card-->
+      <div class="swiper-slide card">
+        <div class="mt-lg-2 p-4">
+
+          <div class="row " style="justify-content:space-between ;">
+          
+            <div class=" d-flex flex-row">
+              <div class="rate col-lg-4 col-md-4 col-6 text-start">
+            <img src="../w.jpg" alt="" >
+              </div>
+          <div class="col-lg-8 col-md-4 col-6 d-flex flex-column ">
+           
+            <div class="rating mt-2">
+              <p class="fw-bold text-gray ">Shoes</p>
+              <p class="fw-bold fs-5" style="font-family: Georgia, 'Times New Roman', Times, serif ;">Low Top Sneakers</p>
+             <a href="#"> <i class="fas fa-star"></i></a>
+              <a href="#"><i class="fas fa-star"></i></a>
+             <a href="#"> <i class="fas fa-star"></i></a>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+          </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-lg-12">
+              <span class="text-gray">
+                Kick goals with your new stylish kicks from Review Australia. We have a wide collection of women's footwear including feminine flats, comfy sneakers and timeless high heels to pair with your outfit. 
+              </span>
+              </div>
+            </div>
+            
+            
+          </div>
+          
+  
+        </div>
+      </div>
+     
+      <div class="swiper-slide card">
+        <div class="mt-2 p-4">
+          <div class="row " style="justify-content:space-around ;">
+          
+            <div class=" d-flex flex-row">
+              <div class="rate col-lg-4 col-md-4 col-6 text-start">
+            <img src="../w1.jpg" alt="" >
+              </div>
+          <div class="col-lg-8 col-md-8 col-6 d-flex flex-column ">
+            <p class="fw-bold text-gray  ">Dresses</p>
+            <p class="fs-5 fw-bold" style="font-family: Georgia, 'Times New Roman', Times, serif;">Cotton Print Dress</p>
+            <div class="rating ">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+          </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-lg-12">
+              <span class="text-gray">
+                By night, slip into an intricately woven evening dress completed with one of our finest handbags to complete your look. So whatever your dressing needs are, River Island has you covered with our wide range of glamorous dresses. 
+              </span>
+              </div>
+            </div>
+            
+            
+            
+          </div>
+          
+        </div>
+      </div>
+  
+      <div class="swiper-slide card">
+        <div class="mt-2 p-4">
+          <div class="row " style="justify-content:space-around ;">
+          
+            <div class=" d-flex flex-row">
+              <div class="rate col-lg-4 col-md-4 col-6 text-start">
+            <img src="../w2.jpg" alt="">
+              </div>
+          <div class="col-lg-8 col-md-8 col-6 d-flex flex-column">
+            <p class="fw-bold text-gray">T-shirts</p>
+            <p class="fw-bold fs-5" style="font-family: Georgia, 'Times New Roman', Times, serif;">Oversized prit T-shirt</p>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+          </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-lg-12">
+            <span class="text-gray">
+              To help you find your next great pair, and to get a sense of how updates to your favorite road or trail shoe may change how it fits or performs, we review hundreds of men’s and women’s running shoes each year. 
+            </span>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+  
+
+
+      
+     
+      <div class="swiper-slide card">
+        <div class="mt-2 p-4">
+          <div class="row " style="justify-content:space-around ;">
+          
+            <div class=" d-flex flex-row">
+              <div class="rate col-lg-4 col-md-4 col-6 text-start">
+            <img src="../w4.jpg" alt="">
+              </div>
+          <div class="col-lg-8 col-md-4 col-6 d-flex flex-column">
+            <p class="fw-bold text-gray">heels</p>
+            <p class="fw-bold fs-5" style="font-family:Georgia, 'Times New Roman', Times, serif ;">Pink Heels</p>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+            </div>
+          </div>
+
+          <div class="row mt-3">
+            <div class="col-lg-12">
+            <span class="text-gray">
+              Add a little height and a whole lot of confidence in a pair of boohoo heels. From high heels to black heels, reach new heights and shop the collection now!
+            </span>
+            </div>
+          </div>
+          
+  
+        </div>
+      </div>
+
+
+
+      <div class="swiper-slide card">
+        <div class="mt-2 p-4">
+          <div class="row " style="justify-content:space-around ;">
+          
+            <div class=" d-flex flex-row">
+              <div class="rate col-lg-4 col-md-4 col-6 text-start">
+            <img src="../w3.jpg" alt="">
+              </div>
+          <div class="col-lg-8 col-md-4 col-6 d-flex flex-column">
+            <p class="fw-bold text-gray">Skirt</p>
+            <p class="fw-bold fs-5">Mid Skirt</p>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+            </div>
+          </div>
+
+          <div class="row mt-3">
+            <div class="col-lg-12">
+            <span class="text-gray">
+              Whatever the occasion, we have a dress to suit you at Review Australia. Discover the perfect formal dress, stunning bridesmaid dress or classy cocktail dress - explore our new-season collection of women's dresses now. We have many stunning styles .
+            </span>
+            </div>
+          </div>
+          
+  
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+  
+
+   <!-- <div class="swiper-pagination"></div>-->
+
+</div>
+
+
+<!--container 7-->
+<div class="container-fluid  bglight  mt-5 "  >
+  <div class="container mt-3 p-3">
+  <div class="d-flex flex-column mt-5 text-center"> 
+   <div class=" mt-5 p-3">
+ <h2 class="fw-bold">@shopper.</h2>
+ <p class="fw-bold fs-5 text-gray mt-4" style="font-family: Georgia, 'Times New Roman', Times, serif;">Appear,dry there darkness thy're seas,dry waters</p>
+   </div>
+  </div>
+ 
+  <div class="row mt-5  ">
+    <div class="col-lg-2 col-md-2 col-sm-2 col-4 px-1 himages ">
+        <div class=" newimg1 "   >
+       <div class="panel2 d-flex flex-row  justify-content-center">
+        <a href="#" class="btn rounded-circle text-white px-0 fs-5 "><i class="bi bi-heart"></i> </a>
+        <p class="mt-2 px-lg-2 px-0 fs-5">248</p>
+        <a href="#" class="btn rounded-circle text-white px-0 fs-5"><i class="bi bi-chat-left"></i> </a>
+        <p class="mt-2 px-2 fs-5">348</p>
+       </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-2 col-sm-2 col-4 px-1 himages"> 
+    <div class=" newimg2  "   >
+      <div class="panel2 d-flex flex-row  justify-content-center">
+        <a href="#" class="btn rounded-circle text-white px-0 fs-5 "><i class="bi bi-heart"></i> </a>
+        <p class="mt-2 px-2 fs-5">248</p>
+        <a href="#" class="btn rounded-circle text-white px-0 fs-5"><i class="bi bi-chat-left"></i> </a>
+        <p class="mt-2 px-2 fs-5">348</p>
+       </div>
+    </div> 
+    </div>
+
+  <div class="col-lg-2 col-md-2 col-sm-2 col-4 px-1 himages">  
+    <div class=" newimg3 "   >
+      <div class="panel2 d-flex flex-row  justify-content-center">
+        <a href="#" class="btn rounded-circle text-white px-0 fs-5 "><i class="bi bi-heart"></i> </a>
+        <p class="mt-2 px-2 fs-5">228</p>
+        <a href="#" class="btn rounded-circle text-white px-0 fs-5"><i class="bi bi-chat-left"></i> </a>
+        <p class="mt-2 px-2 fs-5">148</p>
+       </div>
+    </div>
+  </div>
+
+
+  <div class="col-lg-2 col-md-2 col-sm-2 col-4 px-1 mt-lg-0 mt-2 himages">
+     <div class="newimg4"   >
+      <div class="panel2 d-flex flex-row  justify-content-center">
+        <a href="#" class="btn rounded-circle text-white px-0 fs-5 "><i class="bi bi-heart"></i> </a>
+        <p class="mt-2 px-2 fs-5">255</p>
+        <a href="#" class="btn rounded-circle text-white px-0 fs-5"><i class="bi bi-chat-left"></i> </a>
+        <p class="mt-2 px-2 fs-5">228</p>
+       </div>
+     </div> 
+  </div>
+  <div class="col-lg-2 col-md-2 col-sm-2  col-4 px-1 mt-lg-0 mt-2 himages"> 
+     <div class=" newimg5 "  >
+      <div class="panel2 d-flex flex-row  justify-content-center">
+        <a href="#" class="btn rounded-circle text-white px-0 fs-5 "><i class="bi bi-heart"></i> </a>
+        <p class="mt-2 px-2 fs-5">142</p>
+        <a href="#" class="btn rounded-circle text-white px-0 fs-5"><i class="bi bi-chat-left"></i> </a>
+        <p class="mt-2 px-2 fs-5">848</p>
+       </div>
+     </div> 
+  </div>
+  <div class="col-lg-2 col-md-2 col-sm-2 col-4 px-1 mt-lg-0 mt-2 himages ">
+    <div class=" newimg6 " >
+      <div class="panel2 d-flex flex-row  justify-content-center">
+        <a href="#" class="btn rounded-circle text-white px-0 fs-5 "><i class="bi bi-heart"></i> </a>
+        <p class="mt-2 px-2 fs-5">448</p>
+        <a href="#" class="btn rounded-circle text-white px-0 fs-5"><i class="bi bi-chat-left"></i> </a>
+        <p class="mt-2 px-2 fs-5">302</p>
+       </div>
+    </div>
+     </div>
+
+  
+  </div>
+ 
+  <div class="row mt-lg-5 mt-3 p-lg-2  " style="justify-content:space-between;">
+    <div class="col-lg-2  col-md-2 col-3"><img src="../mango.png" style="height:35px ;"></div>
+    <div class="col-lg-2  col-md-2 col-3  "><img src="../zara.png" style="height:35px ;"></div>
+  
+    <div class="col-lg-2  col-md-2 col-3 "><img src="../reebok.png" style="height:35px ;"></div>
+    <div class="col-2  d-lg-block d-md-block d-none"><img src="../adidas.png" style="height:30px ;"></div>
+    <div class="col-2 d-lg-block d-md-block d-none"><img src="../stradivarius.png" style="height:50px ;"></div>
+    <div class="col-2 d-lg-block d-md-block d-none"><img src="../asos.png" style="height:50px ;"></div>
+   </div>
+  
+   
+
+</div>
+
+</div>
+
+
+
+
+
+<!--footer -->
+
+<div class="container-fluid  p-5  footer2"  >
+  <div class=" mt-5 p-lg-3  ">
+
+   <div class="mt-3 p-3 text-center d-flex flex-column"> 
+    <h3 class="text-white ">Want style ideas and treats?</h3>
+    <div class="d-flex flex-row justify-content-center">
+    <div class="footeremail mb-3 bg-dark mt-4">
+      <input type="email" class="form-control bg-dark" id="footer-email" placeholder="Enter email *">
+     
+    </div>
+    <div class="px-lg-1 px-md-1 px-0 mt-2"><button type="button" class="btn btn-secondary bg-dark mt-3">Subscribe</button></div>
+    </div>
+  </div>
+
+  <div class="row"> 
+
+   
+   <div class="col-lg-1 col-md-3 col-sm-3 col-12  mt-5  d-flex flex-column text-start p-3 ">
+     <h3 class=" text-white text-decoration-none" href="#"><span style="font-family: 'Times New Roman', Times, serif; font-weight: bolder;">Shopper.</h3>
+
+     <div class="icons d-flex mt-4  ">
+       <a class="btn rounded-circle px-2 fs-4" href="#"><i class="fa-brands fa-facebook  text-white"></i>  </a> 
+       <a class="btn rounded-circle px-2 fs-4" href="#"><i class="fa-brands fa-twitter  text-white"></i>  </a>
+       <a class="btn  rounded-circle  px-2 fs-4" href="#"><i class="fa-brands fa-instagram  text-white"></i>  </a>
+       <a class="btn rounded-circle px-2 fs-4" href="#"><i class="fa-brands fa-youtube  text-white"></i>  </a>
+       <a class="btn rounded-circle px-2 fs-4 " href="#"><i class="fa-brands fa-pinterest  text-white"></i>  </a>
+     </div>
+   </div>
+   
+
+
+   <div class="col-lg-1 offset-lg-1  col-md-1 col-sm-1 col-6 mt-5 d-flex flex-column ">
+    <div class="p-lg-3">
+     <h5 class="text-white fw-bold">SUPPORT</h5>
+    </div>
+     <div class="d-block footerlink ">
+      
+           
+      <a class=" nav-link text-white   fw-bold" href="#">Contact </a>
+      
+      <a class="nav-link text-white fw-bold" href="#">FAQs</a>
+   
+      <a class="nav-link text-white   fw-bold" href="#"> Guide</a>
+   
+      <a class="nav-link text-white  fw-bold" href="#">Shipping</a>
+      
+     </div>
+   </div>
+
+  
+   <div class="col-lg-2  col-md-1 offset-md-1 col-sm-1 offset-sm-1 col-6  mt-5 d-flex flex-column ">
+    <div class="p-lg-3">
+     <h5 class="text-white fw-bold">SHOP</h5>
+    </div>
+     <div class="d-block footerlink">
+  
+       
+           <a class=" nav-link text-white   fw-bold" href="#">Men's Shopping</a>
+      
+           <a class="nav-link text-white fw-bold" href="#">Women's Shopping</a>
+        
+           <a class="nav-link text-white  fw-bold" href="#">Kid's Shopping</a>
+        
+           <a class="nav-link text-white  fw-bold" href="#">Discounts</a>
+        
+     </div>
+   </div>
+
+   <div class="col-lg-2  col-md-2 offset-md-1 col-sm-2 offset-sm-1 col-6   mt-5  flex-column  ">
+    <div class="p-lg-3">
+     <h5 class="text-white fw-bold">HELP</h5>
+    </div>
+     
+        <div class="footerlink d-block">
+           
+           <a class="nav-link text-white  fw-bold " href="#">Our story</a>
+       
+           <a class="nav-link text-white  fw-bold " href="#">Careers</a>
+        
+          <a class=" nav-link text-white  fw-bold" href="#">Terms&Condition</a>
+       
+     <a class=" nav-link text-white  fw-bold" href="#">Privacy & cocie police</a>
+   
+        </div>
+     
+    
+   </div>
+
+   
+   <div class="col-lg-2  col-md-2 offset-md-1 col-sm-2 offset-sm-1 col-6  mt-5 p-2  flex-column ">
+    <div class="p-lg-3">
+    <h5 class="text-white fw-bold">CONTACT</h5>
+    </div>
+    <div class="footerlink d-block ">
+
+      
+          <a class=" nav-link text-white fw-bold" href="#" >1-888-923-804</a>
+       
+          <a class=" nav-link text-white  fw-bold" href="#" >1-888-923-8055</a>
+      
+          <a class=" nav-link text-white  fw-bold" href="#">help@allbirds.com</a>
+  
+         
+      
+    </div>
+   </div>
+ 
+ </div>
+  </div>
+ 
+</div>
+
+   
+
+
+
+<!--footer-->
+   <div class="container-fluid  footer3 p-2 " >
+    
+    <div class="container">
+      <div class="row">
+
+    <div class="col-lg-6 col-md-6 col-12 mt-4">
+    <p class="text-gray">@ 2019 All rights reserved. Desined by Unavd </p>
+    </div>
+    <div class="col-lg-6 col-md-6  d-lg-flex col-12 justify-content-end">
+      <div class="icons d-flex flex-row mt-3 ">
+        <a class="btn  fs-3 px-1 " href="#">  <img src="../paypal.png" style="height: 25px;"> </a> 
+       
+        <a class="btn  fs-3 px-1 " href="#">  <img src="../visa.png" style="height: 25px;"> </a>
+        <a class="btn  fs-3 px-1 " href="#">  <img src="../express.png" style="height: 23px;"> </a>
+        <a class="btn  fs-3 px-1 " href="#">  <img src="../mastercard.png" style="height: 28px;"> </a>
+        <a class="btn  fs-3 px-1 " href="#">  <img src="../maestro.png" style="height: 28px;"> </a>
+        <a class="btn  fs-3 px-1 " href="#">  <img src="../klarna.png" style="height: 28px;"> </a>
+      </div>
+    </div>
+      </div>
+   </div>
+   </div>
+
+
+
+  </body>
+</html>
